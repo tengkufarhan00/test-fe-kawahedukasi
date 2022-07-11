@@ -1,8 +1,11 @@
 // Pertanyaan Ke - 1 
 // Cara menemukan angka yang paling banyak muncul dalam array
 
-// Contoh Array
-var data1 = [2,3,2,2,5,7,5,2,2,2,5,5];
+// Contoh array yang diberikan
+    var data1 = [1, 1, 1, 2, 2, 4, 1, 1 ];
+    var data2 = [2, 1, 2, 2, 2, 8, 1, 1 ];
+    var data3 = [3, 3, 3, 3, 2, 4, 1, 1 ];
+
 
 function findMostNumber(data) {
 var count = {};
@@ -17,4 +20,7 @@ var hasil;
   }
   return "total data paling banyak keluar adalah " + hasil + " dengan jumlah " + jumlah
 }
-console.log("Soal ke-1 : " + findMostNumber(data1));
+
+console.log("Data ke-1 : " + findMostNumber(data1));
+console.log("Data ke-2 : " + findMostNumber(data2));
+console.log("Data ke-3 : " + findMostNumber(data3));
