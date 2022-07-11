@@ -14,7 +14,6 @@ var hasil;
     if(count[data[num]] > jumlah) {
       jumlah = count[data[num]];
       hasil = data[num]
-      filtered.push(data[num])
     }
   }
   return "total data paling banyak keluar adalah " + hasil + " dengan jumlah " + jumlah
