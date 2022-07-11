@@ -7,7 +7,6 @@ var data1 = [2,3,2,2,5,7,5,2,2,2,5,5];
 function findMostNumber(data) {
 var count = {};
 var jumlah = 0;
-var filtered = [];
 var hasil;
   for (var num in data) {
     count[data[num]] = (count[data[num]] || 0) + 1;
