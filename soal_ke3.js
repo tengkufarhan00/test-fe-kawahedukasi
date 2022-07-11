@@ -14,7 +14,7 @@ function pyramidLtr(row) {
     }
     return "output 1"
   }
-  console.log("Soal ke - 3 : " + pyramidLtr(6))
+  console.log("Pyramid ke-1 : " + pyramidLtr(6))
   
   //output 2
   function pyramidRtl(row) {
@@ -26,10 +26,9 @@ function pyramidLtr(row) {
      for (k=0;k<=i;k++) {
        output += "*";
      }
-     
      output += "\n";
     }
     console.log(output)
     return "output 2"
   }
-  console.log("Soal ke - 3 : " + pyramidRtl(6))
+  console.log("Pyramid ke-2 : " + pyramidRtl(6))
