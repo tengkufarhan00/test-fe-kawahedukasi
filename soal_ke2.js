@@ -15,7 +15,7 @@ function filterString(input) {
   var reg = /(\d+)/
   var matcher = input.match(reg);
   
-  return (matcher) ? "sistem kami menolak untuk inputan berisi angka " + matcher[0] : input;
+  return (matcher) ? "sistem kami menolak untuk inputan berisi angka " + matcher[0] : "Sistem memeriksa data anda valid dengan ketentuan kami dengan inputan " + input;
  
 }
 
